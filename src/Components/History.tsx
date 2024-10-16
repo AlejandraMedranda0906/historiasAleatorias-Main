@@ -10,7 +10,7 @@ interface HistoryProps {
 const History: React.FC<HistoryProps> = ({ character, place, occasion, type }) => {
   return (
     <div>
-      <h2>Maria conchita de las 4 lomas</h2>
+      <h2>Maria conchita de las 4 lomas y el perro infiel</h2>
       <p>{`${character} went to ${place} for ${occasion}. It turned out to be a ${type} story!`}</p>
     </div>
   );
