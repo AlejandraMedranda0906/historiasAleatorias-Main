@@ -19,32 +19,32 @@ const Options: React.FC<OptionsProps> = ({ onGenerate }) => {
     <div>
       <h3>Ingresa los detalles de tu historia</h3>
       <label>
-        Character Name:
+        Personaje:
         <input
           type="text"
           value={character}
           onChange={(e) => setCharacter(e.target.value)}
-          placeholder="Enter character name"
+          placeholder="Ingrese un personaje"
         />
       </label>
       <br />
       <label>
-        Place:
+        Escenario:
         <input
           type="text"
           value={place}
           onChange={(e) => setPlace(e.target.value)}
-          placeholder="Enter a place"
+          placeholder="Ingrese un escenario"
         />
       </label>
       <br />
       <label>
-        Occasion:
+        Evento:
         <input
           type="text"
           value={occasion}
           onChange={(e) => setOccasion(e.target.value)}
-          placeholder="Enter an occasion"
+          placeholder="Ingrese un evento"
         />
       </label>
       <br />

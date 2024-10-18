@@ -9,3 +9,4 @@ const ButtonGenerateHistory: React.FC<ButtonGenerateHistoryProps> = ({ onClick }
 };
 
 export default ButtonGenerateHistory;
+
